@@ -944,6 +944,18 @@ opacity: 1;
 	}
 }
 
+.modal_fade {
+	animation-name: modal_fade;
+	animation-duration: 0.5s;
+}
+@keyframes modal_fade {
+	from {
+transform: translateY(-100px);
+	}
+	to{
+transform: translateY(0);
+	}
+}
 .show {
 	display: flex !important;
 }
